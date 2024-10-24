@@ -44,3 +44,5 @@ docker push ghcr.io/complexdatacollective/fresco:latest
 
 This will upload both the versioned image and the latest image to the GitHub Packages.
 Verify the images by visiting GitHub Packages [here](https://github.com/complexdatacollective/Fresco/pkgs/container/fresco)
+
+Test
