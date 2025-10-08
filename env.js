@@ -18,7 +18,7 @@ export const env = createEnv({
    */
   server: {
     DATABASE_URL: z.string(),
-    DATABSE_URL_UNPOOLED: z.string(),
+    DATABASE_URL_UNPOOLED: z.string(),
     PUBLIC_URL: z.string().url().optional(),
   },
 
@@ -45,7 +45,7 @@ export const env = createEnv({
    */
   runtimeEnv: {
     DATABASE_URL: process.env.DATABASE_URL,
-    DATABSE_URL_UNPOOLED: process.env.DATABSE_URL_UNPOOLED,
+    DATABASE_URL_UNPOOLED: process.env.DATABASE_URL_UNPOOLED,
     NODE_ENV: process.env.NODE_ENV,
     PUBLIC_URL: process.env.PUBLIC_URL,
     DISABLE_ANALYTICS: process.env.DISABLE_ANALYTICS,
